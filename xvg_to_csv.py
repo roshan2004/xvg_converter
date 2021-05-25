@@ -3,7 +3,4 @@ def xvg_to_csv(input, output):
         for line in file:
             if line.startswith(('#', '@')):
                 continue
-            print(','.join(line.split()), file = f)
-
-    
-    
+            print(','.join(line.split()), file=f)
